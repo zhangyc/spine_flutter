@@ -18,3 +18,6 @@ flutter:
     - assets/raptor/raptor.atlas
     - assets/raptor/raptor.json
     - assets/raptor/raptor.png
+    - assets/spineboy/spineboy.atlas
+    - assets/spineboy/spineboy.json
+    - assets/spineboy/spineboy.png
