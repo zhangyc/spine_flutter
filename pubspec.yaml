@@ -9,6 +9,7 @@ dependencies:
     sdk: flutter
   spine_core:
     git: git://github.com/jtakakura/spine_core.git
+    # path: /Users/junji/Development/github/jtakakura/spine_core
 
 dev_dependencies:
   flutter_test:

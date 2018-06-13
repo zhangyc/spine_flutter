@@ -28,23 +28,15 @@
 // POSSIBILITY OF SUCH DAMAGE.
 // ******************************************************************************
 
-library spine_flutter;
+part of spine_flutter;
 
-import 'dart:async';
-import 'dart:convert';
-import 'dart:math' as math;
-import 'dart:typed_data';
-import 'dart:ui' as ui;
+class Texture extends core.Texture {
+  Texture(ui.Image image) : super(image);
 
-import 'package:flutter/material.dart' hide Texture;
-import 'package:flutter/scheduler.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:spine_core/spine_core.dart' as core;
-
-part 'src/asset_loader.dart';
-part 'src/asset_manager.dart';
-part 'src/texture.dart';
-part 'src/animation_state.dart';
-part 'src/skeleton_animation.dart';
-part 'src/skeleton_render_object_widget.dart';
-part 'src/skeleton_renderer.dart';
+  @override
+  void setFilters(core.TextureFilter minFilter, core.TextureFilter magFilter) {}
+  @override
+  void setWraps(core.TextureWrap uWrap, core.TextureWrap vWrap) {}
+  @override
+  void dispose() {}
+}

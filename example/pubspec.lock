@@ -290,11 +290,11 @@ packages:
     source: hosted
     version: "1.4.0"
   spine_core:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "980930f880ea089e06a286815f40448d526ead56"
+      resolved-ref: f8f9eb1cd06df17a3480f96e91ea38f8fd470b6f
       url: "git://github.com/jtakakura/spine_core.git"
     source: git
     version: "0.1.0"
