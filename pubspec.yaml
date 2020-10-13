@@ -3,7 +3,8 @@ description: The spine-flutter runtime provides functionality to load and manipu
 version: 0.1.0
 homepage: https://github.com/jtakakura/spine_flutter/
 author: Junji Takakura <j.takakura@gmail.com>
-
+environment:
+  sdk: ">=2.8.0 <3.0.0"
 dependencies:
   flutter:
     sdk: flutter
